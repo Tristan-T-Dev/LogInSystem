@@ -1,11 +1,11 @@
 # LogInSystem
 Python Log In System with GUI
 
-Login Application
+# Login Application
 
 This project is a Python-based graphical user interface (GUI) application for user login and signup, built using the Tkinter library. It allows users to register and log in with their credentials, storing user data in a local file. This application is suitable for learning purposes and small-scale projects.
 
-Features
+# Features
 
 User Login: Users can log in using their username and password.
 
@@ -15,29 +15,7 @@ Data Persistence: User credentials are stored in a text file using Python's ast 
 
 Graphical Interface: Intuitive and user-friendly GUI designed with Tkinter.
 
-Requirements
-
-Python 3.x
-
-Tkinter (comes pre-installed with Python)
-
-Installation
-
-Clone this repository:
-
-git clone https://github.com/your-username/login-app.git
-
-Navigate to the project directory:
-
-cd login-app
-
-Ensure that Python is installed on your system.
-
-Usage
-
-Run the application:
-
-python app.py
+----------------------------------------------------------------------------
 
 The main window will display a login screen.
 
@@ -63,7 +41,7 @@ Signup Screen
 
 Allows new users to register by entering a username and password.
 
-Code Overview
+# Code Overview
 
 Login Functionality
 
@@ -81,22 +59,22 @@ Stores new user credentials in datasheet.txt.
 
 Creates the file if it doesn't already exist.
 
-Important Notes
+# Important Notes
 
 Security: This application is for educational purposes. Do not use it for real-world applications without implementing proper security measures like password hashing and encryption.
 
 Error Handling: Basic error handling is implemented. Ensure datasheet.txt is not manually edited to prevent application crashes.
 
-Contributing
+# Contributing
 
 Feel free to fork this repository and contribute by submitting pull requests. For major changes, please open an issue first to discuss your ideas.
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Author
+# Author
 
 Triñanes, Tristan Jay
-
+# 
 Thank you for using this login application! If you have any feedback or issues, please feel free to open an issue on GitHub.
